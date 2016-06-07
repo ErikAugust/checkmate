@@ -28,6 +28,8 @@ $(document.body).checkmate();
 Checkmate will use any <code>input</code> with <code>type="checkbox"</code> that is a child of the element that is 
 passed to the jQuery selector.
 
+<strong>Checkmate in action</strong> <a href="http://blog.getstream.io/cabin-react-redux-example-app-introduction/" target="_blank">Click here to see Checkmate in action.</a>
+
 <h4>Options</h4>
 
 The title of any checkbox can be set by using the <code>data-checkmate</code> attribute. Something like:
