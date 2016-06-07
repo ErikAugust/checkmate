@@ -9,7 +9,7 @@
 Created by <a href="http://www.erikaugust.com" target="_blank">Erik August Johnson</a> originally for <a href="http://cabin.getstream.io" target="_blank">Cabin</a>, the React/Redux Tutorial series, by <a href="https://getstream.io" target="_blank">Stream</a>.
 
 <h4>Latest Version</h4>
-0.0.2: "I've added some basic options." edition.
+<strong>0.0.2: "I've added some basic options" edition.</strong><br />
 0.0.1: "I created this in an hour in my living room" edition.
 
 <h3>Installation</h3>
