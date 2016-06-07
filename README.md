@@ -11,6 +11,12 @@ Created by <a href="http://www.erikaugust.com" target="_blank">Erik August Johns
 <h4>Latest Version</h4>
 0.0.1: "I created this in an hour in my living room" edition.
 
+<h3>Installation</h3>
+
+<pre><code>
+bower install checkmate
+</code></pre>
+
 <h3>Usage</h3>
 
 <h4>Example:</h4>
