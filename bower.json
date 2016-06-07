@@ -1,6 +1,6 @@
 {
   "name": "checkmate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/ErikAugust/checkmate",
   "description": "Checkmate is a jQuery plugin to build simple step tutorial and step-by-step guide systems out of HTML checkbox inputs.",
   "main": "dist/jquery.checkmate.js",

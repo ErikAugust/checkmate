@@ -4,7 +4,7 @@
   </head>
   <body>
     <div>
-      <input type="checkbox" data-checkmate="Example" /> This is a checkbox!
+      <input type="checkbox" /> This is a checkbox!
     </div>
   </body>
 </html>
@@ -13,5 +13,5 @@
 <script src="../bower_components/growl/javascripts/jquery.growl.js"></script>
 <script src="../dist/jquery.checkmate.js"></script>
 <script>
-  jQuery(document.body).checkmate();
+  jQuery(document.body).checkmate({ defaultTitle: "Cabin!", growlDuration: 1000 });
 </script>
