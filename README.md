@@ -31,30 +31,34 @@ passed to the jQuery selector.
 
 <strong>Checkmate in action</strong> <a href="http://blog.getstream.io/cabin-react-redux-example-app-introduction/" target="_blank">Click here to see Checkmate in action.</a>
 
+<br />
 <h4>Options</h4>
 
 Here are the current options that can be passed via an object to Checkmate:
 
-<strong>defaultTitle</strong>
-The title that will be used if a checkbox title is not specified via <code>data-checkmate</code>
+<br />
+<strong>defaultTitle</strong><br />
+The title that will be used if a checkbox title is not specified via <code>data-checkmate</code><br /><br />
 
-Defaults to: 'Checkmate'
-Input type: String
+Defaults to: 'Checkmate'<br />
+Input type: String<br />
 
-<strong>growlPlacement</strong>
-The placement of the jquery-growl alert/notification box:
+<br />
+<strong>growlPlacement</strong><br />
+The placement of the jquery-growl alert/notification box.<br /><br />
 
-Options: 'tl' | 'tr' | 'bl' | 'br' | 'tc' | 'bc'
-Defaults to: 'br'
-Input type: String
+Options: 'tl' | 'tr' | 'bl' | 'br' | 'tc' | 'bc'<br />
+Defaults to: 'br'<br />
+Input type: String<br />
 
-<strong>growlDuration</strong>
-The duration of time (in MS) the jquery-growl alert/notification box is visible:
+<br />
+<strong>growlDuration</strong><br />
+The duration of time (in milliseconds) the jquery-growl alert/notification box is visible:<br /><br />
 
-Defaults to: 2000
-Input type: Integer
+Defaults to: 2000<br />
+Input type: Integer<br />
 
-
+<br />
 An example of setting options:
 <pre><code>
 $(document.body).checkmate({
@@ -72,8 +76,9 @@ data-checkmate="Example Title"
 
 <h3>Dependencies</h3>
 
-<strong>jQuery</strong>
+<strong>jQuery</strong><br />
 Checkmate is a jQuery plugin.
 
-<strong>jQuery Growl</strong>
-Growl is used for the notification/alerts on checkbox change.
+<strong>jQuery Growl</strong><br />
+Growl is used for the notification/alerts on checkbox change.<br />
+Repo: https://github.com/ksylvest/jquery-growl
