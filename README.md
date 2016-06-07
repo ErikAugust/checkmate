@@ -24,10 +24,10 @@ passed to the jQuery selector.
 
 <h4>Options</h4>
 
-The title of any checkbox can be set by using the <code>data-checkmate</code> attribute. Here's an example:
+The title of any checkbox can be set by using the <code>data-checkmate</code> attribute. Something like:
 
 <pre><code>
-<input type="checkbox" data-checkmate="Example" /> This is a checkbox!
+data-checkmate="Example Title"
 </code></pre>
 
 <h3>Dependencies</h3>
