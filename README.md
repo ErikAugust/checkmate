@@ -4,12 +4,12 @@
 
 <h3>History</h3>
 
-
+<img src="http://blog.getstream.io/wp-content/uploads/2016/06/Stream-Blue-Logo-.png" />
 
 Created by <a href="http://www.erikaugust.com" target="_blank">Erik August Johnson</a> originally for <a href="http://cabin.getstream.io" target="_blank">Cabin</a>, the React/Redux Tutorial series, by <a href="https://getstream.io" target="_blank">Stream</a>.
 
 <h4>Latest Version</h4>
-0.0.1: "I created this in an hour in my apartment living room" edition.
+0.0.1: "I created this in an hour in my living room" edition.
 
 <h3>Usage</h3>
 
