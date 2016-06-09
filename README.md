@@ -9,8 +9,26 @@
 <br />
 <h2>Features</h2>
 
-<strong>Checkmate in action</strong> <a href="http://blog.getstream.io/cabin-react-redux-example-app-introduction/" target="_blank">Click here to see Checkmate in action.</a>
+<ul>
+<li>Create step-by-tutorial with simple HTML checkboxes in minutes</li>
+<li>Increase engagement by giving users instant feedback via notifications</li>
+<li>Automatically save tutorial progress through LocalStorage</li>
+<li>Super easy setup</li>
+</ul>
 
+<strong>Example of Checkmate in action</strong> <a href="http://blog.getstream.io/cabin-react-redux-example-app-introduction/" target="_blank">Click here to see Checkmate in action.</a>
+
+<br />
+<h2>Usage</h2>
+
+<h4>Example:</h4>
+
+<pre><code>
+$(document.body).checkmate();
+</code></pre>
+
+Checkmate will use any <code>input</code> with <code>type="checkbox"</code> that is a child of the element that is 
+passed to the jQuery selector.
 
 <h2>History</h2>
 
@@ -30,17 +48,6 @@ Created by <a href="http://www.erikaugust.com" target="_blank">Erik August Johns
 bower install checkmate
 </code></pre>
 
-<br />
-<h2>Usage</h2>
-
-<h4>Example:</h4>
-
-<pre><code>
-$(document.body).checkmate();
-</code></pre>
-
-Checkmate will use any <code>input</code> with <code>type="checkbox"</code> that is a child of the element that is 
-passed to the jQuery selector.
 
 <br />
 <h3>jQuery Options</h3>
@@ -49,14 +56,14 @@ Here are the current options that can be passed via an object to Checkmate:
 
 <br />
 <strong>defaultTitle</strong><br />
-The title that will be used if a checkbox title is not specified via <code>data-checkmate</code><br /><br />
+The title that will be used if a checkbox title is not specified via <code>data-checkmate</code><br />
 
 Defaults to: 'Checkmate'<br />
 Input type: String<br />
 
 <br />
 <strong>growlPlacement</strong><br />
-The placement of the jquery-growl alert/notification box.<br /><br />
+The placement of the jquery-growl alert/notification box.<br />
 
 Options: 'tl' | 'tr' | 'bl' | 'br' | 'tc' | 'bc'<br />
 Defaults to: 'br'<br />
@@ -64,7 +71,7 @@ Input type: String<br />
 
 <br />
 <strong>growlDuration</strong><br />
-The duration of time (in milliseconds) the jquery-growl alert/notification box is visible:<br /><br />
+The duration of time (in milliseconds) the jquery-growl alert/notification box is visible:<br />
 
 Defaults to: 2000<br />
 Input type: Integer<br />
@@ -73,7 +80,7 @@ Input type: Integer<br />
 <strong>saveProgress</strong></br />
 Saves a record of checkboxes checked for a page via Local Storage. Works well in Internet Explorer 9, and beyond.
 
-<br /><br />
+<br />
 For a checkbox to be saved, either the <code>id</code> attribute or <code>data-checkmate-id</code> attribute must be set for the checkbox.<br />
 
 Defaults to: <code>false</code><br />
