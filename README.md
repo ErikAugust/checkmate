@@ -10,10 +10,10 @@
 <h2>Features</h2>
 
 <ul>
+<li>Super easy setup</li>
 <li>Create step-by-tutorial with simple HTML checkboxes in minutes</li>
 <li>Increase engagement by giving users instant feedback via notifications</li>
 <li>Automatically save tutorial progress through LocalStorage</li>
-<li>Super easy setup</li>
 </ul>
 
 <strong>Example of Checkmate in action</strong> <a href="http://blog.getstream.io/cabin-react-redux-example-app-introduction/" target="_blank">Click here to see Checkmate in action.</a>
