@@ -103,7 +103,7 @@ $(document.body).checkmate({
 The following can be set as attributes:
 
 <br />
-<strong><code>data-checkmate</code>
+<strong><code>data-checkmate</code></strong>
 The title of any checkbox can be set by using the <code>data-checkmate</code> attribute. Something like:
 
 <pre><code>
