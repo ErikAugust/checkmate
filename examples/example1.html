@@ -4,7 +4,8 @@
   </head>
   <body>
     <div>
-      <input type="checkbox" /> This is a checkbox!
+      <input id="todo-1" type="checkbox" /> This is a checkbox!
+      <input id="todo-2" type="checkbox" /> This is another!
     </div>
   </body>
 </html>
@@ -16,6 +17,7 @@
   jQuery(document.body).checkmate({
     defaultTitle: "Cabin!",
     growlDuration: 1000,
-    growlPlacement: 'tr'
+    growlPlacement: 'tr',
+    saveProgress: true
   });
 </script>
