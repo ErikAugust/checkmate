@@ -47,6 +47,14 @@ Created by <a href="http://www.erikaugust.com" target="_blank">Erik August Johns
 <pre><code>
 bower install checkmate
 </code></pre>
+<br />
+
+Order your scripts like so:
+<pre><code>
+&lt;script src="../bower_components/jquery/dist/jquery.min.js">&lt;/script>
+&lt;script src="../bower_components/growl/javascripts/jquery.growl.js">&lt;/script>
+&lt;script src="../dist/jquery.checkmate.js">&lt;/script>
+</code></pre>
 
 
 <br />
