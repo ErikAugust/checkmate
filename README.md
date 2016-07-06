@@ -18,6 +18,8 @@
 
 <strong>Example of Checkmate in action</strong> <a href="http://blog.getstream.io/cabin-react-redux-example-app-introduction/" target="_blank">Click here to see Checkmate in action.</a>
 
+<a href="http://erikaugust.com/thoughts/introduction-to-ionic-framework-resources/" target="_blank">Here's another example.</a>
+
 <br />
 <h2>Usage</h2>
 
